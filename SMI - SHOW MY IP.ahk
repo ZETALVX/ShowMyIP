@@ -40,11 +40,6 @@ Gui, Add, Text, Texta cRed +Right w350, % RunWaitOne("curl -s http://ifconfig.me
 Gui, Font, s12,Courier New
 Gui, Add, Text,cRed +Right w400, by ZETALVX
 Gui, Show,AutoSize,SMI - SHOW MY IP
-;A:	
-;sleep 5000
-;GuiControl,, Texta cRed +Right w500, % RunWaitOne("curl -s http://ifconfig.me")
-;Goto, A
-;MsgBox % "Your public IP is: " RunWaitOne("curl -s http://ifconfig.me")
 return
 
 GuiClose:
